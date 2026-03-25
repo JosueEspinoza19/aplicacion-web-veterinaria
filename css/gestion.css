@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+
+#texto_principal {
+  text-align: left;
+  font-size: 2vw; 
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  margin: 10px;
+}
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 97%;
+    margin: 20px 20px;
+}
+
+#agregar {
+    display: flex;
+    justify-content: right;
+    margin: 10px 20px;
+}
+
+#icono_agregar {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: #82f59f;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+
+.boton-volver:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+
+}
+
+.boton-volver {
+    background-color: #19e45d;
+    align-items: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px 20px;
+    border-radius: 20px;
+
+}
+
+.boton-accion {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #19e45d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}

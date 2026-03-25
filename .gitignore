@@ -1,0 +1,21 @@
+# Extensiones de editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos temporales del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs de error de XAMPP/Apache
+*.log
+error_log
+
+# Archivos de respaldo o temporales
+*.bak
+*.tmp
